@@ -1,0 +1,38 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "a node template with ts and linting",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.{js,ts}' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agmarco/node-ts-template.git"
+  },
+  "keywords": [
+    "ts",
+    "template"
+  ],
+  "author": "Marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agmarco/node-ts-template/issues"
+  },
+  "homepage": "https://github.com/agmarco/node-ts-template#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
